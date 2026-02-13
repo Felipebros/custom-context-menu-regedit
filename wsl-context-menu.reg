@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\bash]
+@="Abrir WSL Bash"
+"Icon"="\"C:\\Program Files\\WSL\\176607_metroui_ubuntu_icon.ico\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\bash\command]
+@="C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu"
